@@ -1,0 +1,34 @@
+<style>
+    body {
+	margin: 0;
+    }
+    #static {
+	background: rgb(150, 150, 150);
+	position: static;
+    }
+    #absolute {
+	background: rgb(200,200,200);
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+    }
+    #relative-parent {
+	background: rgb(175,175,175);
+	position: relative;
+	height: 200px;
+	//width: 200px;
+    }
+    #absolute-child {
+	background: rgb(225,225,225);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    }
+</style>
+<div id='static'>Static</div>
+<div id='absolute'>Absolute</div>
+<div id='relative-parent'>
+    Relative-parentRelative-parentRelative-parentRelative-parent
+    <div id='absolute-child'>Absolute-child</div>
+</div>
