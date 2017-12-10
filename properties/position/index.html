@@ -1,46 +1,46 @@
 <style>
     body {
-	margin: 0;
+    	margin: 0;
     }
     #static {
-	background: green;
-	position: static;
+        background: green;
+        position: static;
     }
     #absolute {
-	background: orange;
-	position: absolute;
-	bottom: 50px;
-	left: 50px;
+        background: orange;
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
     }
     #relative {
-	background: yellow;
-	position: relative;
-	top: 5px;
-	left: 5px;
-	z-index: 1;
+        background: yellow;
+        position: relative;
+        top: 5px;
+        left: 5px;
+        z-index: 1;
     }
     #relative-parent {
-	background: pink;
-	position: relative;
-	height: 200px;
-	width: 50%;
+        background: pink;
+        position: relative;
+        height: 200px;
+        width: 50%;
     }
     #absolute-child {
-	background: purple;
-	color: white;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+        background: purple;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     #absolute-child-on-top {
-	background: orangered;
-	color: white;
-	position: absolute;
-	top: 55%;
-	left: 55%;
-	transform: translate(-50%, -50%);
-	z-index: 1;
+        background: orangered;
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
     }
 </style>
 <div id='static'>Static</div>
